@@ -1,0 +1,43 @@
+//attraversare un incrocio
+
+- mi fermo sul marciapiede
+
+SE è presente un semaforo{
+
+    FINCHÈ non attraverso{
+
+        SE il semaforo è verde{
+
+            SE non transitano auto OR le auto sono ferme{
+
+                - attraverso le strisce pedonali
+
+            }ALTRIMENTI{
+
+                - aspetto
+
+            }
+        }ALTRIMENTI{
+
+            - aspetto che il semaforo diventi verde
+
+        }
+
+    }
+
+}ALTRIMENTI{
+
+    FINCHÈ non attraverso{
+
+        SE non transitano auto{
+
+            - attraverso
+
+        }ALTRIMENTI{
+
+            -aspetto
+        }
+
+    }
+
+}

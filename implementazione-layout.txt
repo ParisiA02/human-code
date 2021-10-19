@@ -1,0 +1,57 @@
+//implementare un layout assegnato come esercitazione pomeridiana
+
+- copio il nome della repo
+- creo una nuova repo su github
+- apro l'IDE 
+- clono la repo appena creata
+- scarico da slack il file zip con il contenuto necessario per l'esercitazione
+
+SE l'esercizio richiede delle immagine{
+    - creo la cartella img all'interno della mia repo
+    - sposto le immagini dal file zip alla cartella img all'interno della mia repo
+}
+
+- creo la cartella css
+- creo il file style.css all'interno della cartella css
+- creo il file index.html
+- linko il file css all'interno dell'head del mio file html
+- apro il mio file .html con un browser
+- creo un blocco e lo stilizzo per verificare se il file css sia linkato correttamente
+- ricarico la pagina
+
+SE il blocco viene stilizzato{
+
+    - ripulisco il file css
+
+    FINCHÈ il lavoro non è completo{
+
+        - implemento una parte del layout
+
+        SE la parte appena implementata soddisfa i requisiti{
+
+            - faccio un commit ed un push
+
+        }ALTRIMENTI{
+
+            FINCHÈ la parte appena implementata non soddisfa i requisiti{
+                
+                - cerco il problema
+                - implemento una soluzione
+                - faccio un test dell'implementazione
+
+                SE la parte appena implementata soddisfa i requisiti{
+                    - faccio un commit ed un push
+                }
+            }
+        }
+    }
+}ALTRIMENTI{
+
+    FINCHÈ il blocco non viene stilizzato{
+
+        - cerco il problema
+        - implemento una soluzione
+        - ricarico la pagina
+
+    }
+}
